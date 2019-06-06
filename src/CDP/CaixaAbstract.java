@@ -21,4 +21,17 @@ public abstract class CaixaAbstract implements Caixa {
     public String toString(){
         return "Caixa com " + this.personalizacao + " custa R$ " + this.preco + ". Formato " + this.formato;
     }
+
+    @Override
+    public void setPersonalizacao(String personalizacao) {
+        this.personalizacao = personalizacao;
+    }
+
+    public String getPersonalizacao() {
+        return personalizacao;
+    }
+
+    public String getFormato() {
+        return formato;
+    }
 }

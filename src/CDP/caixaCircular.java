@@ -17,4 +17,5 @@ public class caixaCircular extends CaixaAbstract {
         double precoTotal = (0.1 * areaTotal);
         return precoTotal;
     }
+
 }
